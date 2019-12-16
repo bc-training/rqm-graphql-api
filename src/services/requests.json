@@ -1,0 +1,45 @@
+{
+    "data": [
+        {
+            "identifier": "4dafda69-0b57-447c-b84c-4efabfb4283f",
+            "title": "I have a claim about your services",
+            "serviceLevel": {
+                "value": "SE PRIME"
+            },
+            "type": "xx",
+            "contactReason": {
+                "domain": "BCD00014",
+                "productType": "345",
+                "contactReasonCode": "CR000012"
+            },
+            "requestorLanguage": "EN",
+            "estimatedResolutionDate": "2019-12-15T08:30:13.757Z",
+            "numberOfTimesReopened": 0,
+            "role": [
+                {
+                    "type": "CUSTOMER",
+                    "identifier": "id081539",
+                    "name": "REQUEST-FOR"
+                },
+                {
+                    "type": "AGENT",
+                    "identifier": "id089635",
+                    "name": "ASSIGNED-TO"
+                },
+                {
+                    "type": "AGENT",
+                    "identifier": "id089635",
+                    "name": "OWNER"
+                }
+            ],
+            "internalStatus": "INWAIT",
+            "externalStatus": "OPEN",
+            "creationDate": "2019-05-15T08:30:13.757Z",
+            "action": [
+                {
+                    "bci_identifier": "2116495f-2e4c-44a5-9996-7e2a7fdbd84e"
+                }
+            ]
+        }
+    ]
+}

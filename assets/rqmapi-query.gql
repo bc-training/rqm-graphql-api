@@ -1,0 +1,6 @@
+type Query {
+    # Ping the running µService and get pong data back
+    pingRqm: PongType
+    requests: [RqmRequestType]
+    request(id: String!): RqmRequestType
+}

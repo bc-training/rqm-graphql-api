@@ -1,0 +1,19 @@
+overwrite: true
+schema: './assets/**/*.gql'
+# config: 
+#   federation: true
+documents: null
+generates:
+  ./src/model/generated/rqmapi.model.ts:
+    config: 
+      defaultMapper: any
+      contextType: ../../core/graphql/graphql-context#GraphQLContext
+      # federation: true
+    plugins:
+      - typescript
+      - typescript-resolvers
+  ./src/model/generated/rqmapi.schema-ast.graphql:
+    plugins:
+      - schema-ast      
+    # config: 
+    #   federation: true

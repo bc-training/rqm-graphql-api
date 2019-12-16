@@ -1,0 +1,46 @@
+
+scalar Date
+
+type PongType {
+    dateTime: Date!
+    message: String!
+}
+
+type RqmRequestType  {
+    identifier: ID!
+    title: String
+    type: String!
+    serviceLevel: RqmServiceLevelType
+    contactReason: RqmContactReasonType
+    requestorLanguage: String
+    estimatedResolutionDate: Date!
+    numberOfTimesReopened: Int
+    role: [RqmRequestRoleType!]!
+    internalStatus: String
+    externalStatus: String
+    requestorDescription: String
+    creationDate: Date!
+    action: [RqmRequestActionItem]
+}
+
+type RqmRequestRoleType {
+    type: String!
+    identifier: String!
+    name: String!
+}
+
+type RqmServiceLevelType {
+    value: String!
+    description: String
+}
+
+type RqmContactReasonType {
+  domain: String
+  productType: String
+  contactReasonCode: String!
+}
+
+type RqmRequestActionItem  {
+  bci_identifier: ID!
+}
+
